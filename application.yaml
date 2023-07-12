@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/MpenduloNk/argocd-automation.git
     targetRevision: HEAD
-    path: main
+    path: dev
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
